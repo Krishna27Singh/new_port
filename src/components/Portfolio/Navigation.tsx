@@ -24,7 +24,7 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#e5e1d8]">
-      <div className="w-full px-16">
+      <div className="max-w-7xl mx-auto px-0">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-xl font-bold text-[#e5e1d8]">KRISHNA SINGH</div>

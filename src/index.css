@@ -47,6 +47,8 @@
   }
 }
 
+
+
 @layer components {
   .border-box {
     @apply border-2 border-black;
