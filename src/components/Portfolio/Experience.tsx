@@ -1,74 +1,55 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Building } from "lucide-react";
+import { Calendar, MapPin, Building, IndianRupee } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: "SENIOR FULL STACK DEVELOPER",
-      company: "TECH INNOVATIONS INC.",
-      location: "SAN FRANCISCO, CA",
-      period: "2022 - PRESENT",
-      type: "FULL-TIME",
-      description: [
-        "LED DEVELOPMENT OF SCALABLE WEB APPLICATIONS SERVING 100K+ USERS",
-        "ARCHITECTED AND IMPLEMENTED MICROSERVICES INFRASTRUCTURE",
-        "MENTORED JUNIOR DEVELOPERS AND CONDUCTED CODE REVIEWS",
-        "IMPROVED APPLICATION PERFORMANCE BY 40% THROUGH OPTIMIZATION"
-      ],
-      technologies: ["REACT", "NODE.JS", "AWS", "DOCKER", "POSTGRESQL"]
-    },
-    {
       title: "FULL STACK DEVELOPER",
-      company: "DIGITAL SOLUTIONS CO.",
-      location: "NEW YORK, NY",
-      period: "2020 - 2022",
+      company: "XCEED NITJ",
+      location: "NIT JALANDHAR",
+      period: "JUNE 2025 - PRESENT",
       type: "FULL-TIME",
       description: [
-        "DEVELOPED AND MAINTAINED E-COMMERCE PLATFORMS",
-        "COLLABORATED WITH CROSS-FUNCTIONAL TEAMS ON PRODUCT FEATURES",
-        "IMPLEMENTED CI/CD PIPELINES AND AUTOMATED TESTING",
-        "REDUCED BUG REPORTS BY 30% THROUGH QUALITY ASSURANCE PRACTICES"
+        "DEVELOPED THE XCEED'S CONFERENCE MODULE USING REACTJS, TAILWINDCSS AND CHAKRA UI",
+        "DEVELOPED A FULLY RESPONSIVE AND SECURE PLATFORM THAT SUPPORTED OVER 1700+ USERS",
+        "OPTIMIZED UI PERFORMANCE AND RESPONSIVENESS ACROSS 10+ DYNAMIC COMPONENTS",
+        "REDUCED PAGE LOAD TIME AND CONTRIBUTED TO THE MODULE'S REVENUE GENERATION OF ₹7000+ PER DEPLOYMENT"
       ],
-      technologies: ["REACT", "PYTHON", "DJANGO", "REDIS", "MONGODB"]
+      technologies: ["REACT", "TAILWINDCSS", "CHAKRA UI", "NODEJS", "MONGODB"]
     },
     {
-      title: "FRONTEND DEVELOPER",
-      company: "STARTUP VENTURES",
-      location: "AUSTIN, TX",
-      period: "2019 - 2020",
-      type: "FULL-TIME",
+      title: "OPEN SOURCE CONTRIBUTOR",
+      company: "SOCIAL SUMMER OF CODE",
+      location: "REMOTE",
+      period: "JUNE 2025 - PRESENT",
+      type: "PART-TIME",
       description: [
-        "BUILT RESPONSIVE WEB APPLICATIONS FOR MULTIPLE CLIENTS",
-        "COLLABORATED WITH DESIGNERS TO IMPLEMENT PIXEL-PERFECT UIS",
-        "OPTIMIZED WEB PERFORMANCE AND ACCESSIBILITY STANDARDS",
-        "PARTICIPATED IN AGILE DEVELOPMENT PROCESS"
+        "CONTRIBUTED TO MULTIPLE OPEN SOURCE PROJECTS DURING SOCIAL SUMMER OF CODE",
+        "INTEGRATED LLM-BASED CHATBOT AND ENHANCED UI/UX CONSISTENCY THAT BOOSTED USER INTERACTION SIGNIFICANTLY",
       ],
-      technologies: ["JAVASCRIPT", "REACT", "CSS3", "WEBPACK"]
+      technologies: ["BOTPRESS", "REACT", "NODEJS", "TAILWINDCSS", "MONGODB"]
+    },
+    {
+      title: "CORE MEMBER",
+      company: "CYBERNAUTS NITJ",
+      location: "NIT JALANDHAR",
+      period: "APRIL 2025 - PRESENT",
+      type: "PART-TIME",
+      description: [
+        "PARTICIPATED AND CONTRIBUTED IN VARIOUS WORKSHOPS AND EVENTS CONDUCTED BY THE CLUB",
+      ],
+      technologies: []
     }
   ];
 
   const education = [
     {
-      degree: "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
-      school: "UNIVERSITY OF TECHNOLOGY",
-      location: "CALIFORNIA, USA",
-      period: "2015 - 2019",
+      degree: "BACHELOR OF TECHNOLOGY IN BIOTECHNOLOGY",
+      school: "DR BR AMBEDKAR NATIONAL INSTITUE OF TECHNOLOGY",
+      location: "JALANDHAR, PUNJAB",
+      period: "2024 - 2028",
       achievements: [
-        "SUMMA CUM LAUDE - GPA 3.9/4.0",
-        "PRESIDENT OF COMPUTER SCIENCE CLUB",
-        "HACKATHON WINNER - BEST INNOVATIVE SOLUTION 2018"
-      ]
-    },
-    {
-      degree: "FULL STACK WEB DEVELOPMENT BOOTCAMP",
-      school: "CODING ACADEMY",
-      location: "ONLINE",
-      period: "2019",
-      achievements: [
-        "TOP 5% OF CLASS",
-        "CAPSTONE PROJECT: E-COMMERCE PLATFORM",
-        "COLLABORATIVE DEVELOPMENT WITH REAL CLIENTS"
       ]
     }
   ];
@@ -86,7 +67,7 @@ const Experience = () => {
           <div>
             <h3 className="text-2xl font-bold text-foreground uppercase tracking-wide mb-8 flex items-center gap-3">
               <Building className="w-6 h-6 text-primary" />
-              WORK EXPERIENCE
+              EXPERIENCE
             </h3>
             
             <div className="space-y-8">
@@ -180,29 +161,7 @@ const Experience = () => {
               ))}
             </div>
 
-            {/* Certifications */}
-            <div className="mt-12">
-              <h4 className="text-xl font-bold text-foreground uppercase tracking-wide mb-6">
-                CERTIFICATIONS
-              </h4>
-              <div className="space-y-3">
-                {[
-                  "AWS CERTIFIED SOLUTIONS ARCHITECT",
-                  "GOOGLE CLOUD PROFESSIONAL DEVELOPER", 
-                  "MICROSOFT AZURE FUNDAMENTALS",
-                  "MONGODB CERTIFIED DEVELOPER"
-                ].map((cert, index) => (
-                  <div key={index} className="border border-black p-3 bg-background">
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-primary rounded-full"></div>
-                      <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
-                        {cert}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
