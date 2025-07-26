@@ -58,6 +58,15 @@ const Projects = () => {
       liveUrl: "#",
       githubUrl: "#",
       featured: true
+    },
+    {
+      title: "BLOCKCHAIN EXPLORER",
+      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
+      image: "/lll.jpeg",
+      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
     }
   ];
 
