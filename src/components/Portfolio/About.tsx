@@ -14,7 +14,7 @@ const About = () => {
           <div className="relative">
             <div className="border-box-thick bg-background p-8">
               <div className="aspect-square bg-background border-box flex items-center justify-center">
-                <span className="text-6xl text-foreground font-bold">PHOTO</span>
+                <span className="text-6xl text-foreground font-bold"><img src="/gitim.jpeg" alt="krishna.image" /></span>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
             </h3>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'M A FULL STACK DEVELOPER WITH OVER X YEARS OF EXPERIENCE CREATING 
+              I'M A FULL STACK DEVELOPER WHO ENJOYS CRAFTING SEAMLESS WEB APLLICATIONS AND CREATING 
               DIGITAL SOLUTIONS THAT MAKE A DIFFERENCE. MY JOURNEY IN TECHNOLOGY 
               STARTED WITH A CURIOSITY ABOUT HOW THINGS WORK AND EVOLVED INTO A 
               PASSION FOR BUILDING EXCEPTIONAL USER EXPERIENCES.
@@ -34,32 +34,12 @@ const About = () => {
             
             <p className="text-lg text-muted-foreground leading-relaxed">
               WHEN I'M NOT CODING, YOU CAN FIND ME EXPLORING NEW TECHNOLOGIES, 
-              CONTRIBUTING TO OPEN SOURCE PROJECTS, OR SHARING KNOWLEDGE WITH 
+              CONTRIBUTING TO OPEN SOURCE PROJECTS, OR SHARING KNOWLEDGE AND COLLABORATING WITH 
               THE DEVELOPER COMMUNITY. I BELIEVE IN CONTINUOUS LEARNING AND 
               STAYING AHEAD OF THE CURVE IN THIS RAPIDLY EVOLVING FIELD.
             </p>
             
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-sm text-muted-foreground uppercase tracking-wide">
-                  PROJECTS COMPLETED
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">X+</div>
-                <div className="text-sm text-muted-foreground uppercase tracking-wide">
-                  YEARS EXPERIENCE
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">100+</div>
-                <div className="text-sm text-muted-foreground uppercase tracking-wide">
-                  HAPPY CLIENTS
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

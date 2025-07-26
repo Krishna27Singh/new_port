@@ -6,34 +6,41 @@ const Skills = () => {
     {
       title: "FRONTEND DEVELOPMENT",
       skills: [
-        "REACT", "NEXT.JS", "TYPESCRIPT", "JAVASCRIPT", "HTML5", "CSS3", 
-        "TAILWIND CSS", "STYLED COMPONENTS", "SASS", "RESPONSIVE DESIGN"
+        "REACT", "TYPESCRIPT", "JAVASCRIPT", "HTML5", "CSS3", 
+        "TAILWIND CSS", "STYLED COMPONENTS", "BOOTSTRAP", "RESPONSIVE DESIGN", "CHAKRA", "FRAMER MOTION", "EJS"
       ],
-      icon: "🎨"
+      icon: ""
     },
     {
       title: "BACKEND DEVELOPMENT", 
       skills: [
-        "NODE.JS", "EXPRESS.JS", "PYTHON", "DJANGO", "FLASK", "REST API",
-        "GRAPHQL", "MICROSERVICES", "SERVERLESS", "DATABASE DESIGN"
+        "NODE.JS", "EXPRESS.JS", "PYTHON", "FLASK", "REST API",
+        "OPENCV", "MICROSERVICES", "D3.JS", "JSON", "NUMPY", "MATPLOTLIB"
       ],
-      icon: "⚙️"
+      icon: ""
     },
     {
       title: "DATABASE & CLOUD",
       skills: [
-        "POSTGRESQL", "MONGODB", "REDIS", "AWS", "GOOGLE CLOUD", "AZURE",
-        "DOCKER", "KUBERNETES", "CI/CD", "LINUX"
+        "POSTGRESQL", "MONGODB", "AZURE",
+        "DOCKER", "ATLAS"
       ],
-      icon: "☁️"
+      icon: ""
     },
     {
       title: "TOOLS & WORKFLOW",
       skills: [
-        "GIT", "GITHUB", "VS CODE", "FIGMA", "POSTMAN", "JEST", "CYPRESS",
-        "WEBPACK", "VITE", "AGILE", "SCRUM"
+        "GIT", "GITHUB", "VS CODE", "FIGMA", "POSTMAN", "RIVE", "BOTPRESS",
+        "WEBPACK", "VITE",  "FIREBASE", "NPM", "NETLIFY", "RENDER"
       ],
-      icon: "🛠️"
+      icon: ""
+    },
+    {
+      title: "CORE COMPETENCIES",
+      skills: [
+        "DATA STRUCTURED AND ALGORITHMS", "OBJECT ORIENTED PROGRAMMING", "COMPUTER VISION", "WEB DEVELOPMENT", "ARTIFICIAL INTELLIGENCE", "LINEAR ALGEBRA", "NUMBER THEORY"
+      ],
+      icon: ""
     }
   ];
 
@@ -43,10 +50,6 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">SKILLS & TECHNOLOGIES</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A COMPREHENSIVE OVERVIEW OF MY TECHNICAL EXPERTISE AND 
-            THE TECHNOLOGIES I USE TO BUILD EXCEPTIONAL DIGITAL EXPERIENCES.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
