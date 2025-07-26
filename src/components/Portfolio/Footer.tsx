@@ -20,12 +20,8 @@ const Footer = () => {
             {/* Brand */}
             <div>
               <h3 className="text-2xl font-bold text-primary mb-4 uppercase tracking-wide">
-                YOUR NAME
+                KRISHNA SINGH
               </h3>
-              <p className="text-muted-foreground mb-4">
-                FULL STACK DEVELOPER PASSIONATE ABOUT CREATING EXCEPTIONAL 
-                DIGITAL EXPERIENCES WITH MODERN TECHNOLOGIES.
-              </p>
               <button 
                 onClick={scrollToTop} 
                 className="border-box px-4 py-2 bg-background text-black font-bold uppercase text-sm tracking-wide hover:bg-black hover:text-background transition-colors flex items-center gap-2"
@@ -73,15 +69,15 @@ const Footer = () => {
               <div className="space-y-2 text-sm">
                 <p className="text-muted-foreground">
                   <span className="font-medium uppercase tracking-wide">EMAIL:</span><br />
-                  YOUR.EMAIL@EXAMPLE.COM
+                  krishnasingh97857@gmail.com
                 </p>
                 <p className="text-muted-foreground">
                   <span className="font-medium uppercase tracking-wide">PHONE:</span><br />
-                  +1 (555) 123-4567
+                  +91 9785748390
                 </p>
                 <p className="text-muted-foreground">
                   <span className="font-medium uppercase tracking-wide">LOCATION:</span><br />
-                  SAN FRANCISCO, CA
+                  JAIPUR, RAJASTHAN
                 </p>
               </div>
             </div>
@@ -91,15 +87,12 @@ const Footer = () => {
           <div className="border-t-2 border-black pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               {/* Copyright */}
-              <div className="flex items-center gap-2 text-sm text-muted-foreground font-bold uppercase">
-                <span>© {currentYear} YOUR NAME. ALL RIGHTS RESERVED.</span>
-              </div>
 
               {/* Made with Love */}
-              <div className="flex items-center gap-2 text-sm text-muted-foreground uppercase">
+              <div className="flex items-center gap-2 px-14 text-sm text-muted-foreground uppercase">
                 <span>MADE WITH</span>
-                <Heart className="w-4 h-4 text-red-400 fill-current" />
-                <span>AND LOTS OF COFFEE</span>
+                <Heart className="w-4 h-4 text-black fill-current" />
+                <span>HARE KRISHNA</span>
               </div>
 
               {/* Resume Download */}
