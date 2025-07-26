@@ -44,7 +44,7 @@ const Projects = () => {
     {
       title: "SOCIAL MEDIA ANALYTICS",
       description: "COMPREHENSIVE ANALYTICS DASHBOARD FOR SOCIAL MEDIA PERFORMANCE WITH DATA VISUALIZATION AND REPORTING.",
-      image: "/placeholder.svg",
+      image: "/mdd.jpeg",
       technologies: ["PYTHON", "DJANGO", "REACT", "D3.JS", "REDIS"],
       liveUrl: "#",
       githubUrl: "#",
@@ -53,7 +53,7 @@ const Projects = () => {
     {
       title: "BLOCKCHAIN EXPLORER",
       description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
-      image: "/placeholder.svg",
+      image: "/blgg.jpeg",
       technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
       liveUrl: "#",
       githubUrl: "#",
