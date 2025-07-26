@@ -27,7 +27,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-0">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-xl font-bold text-[#e5e1d8]">KRISHNA SINGH</div>
+          <div className="text-xl font-bold text-[#e5e1d8] px-4">KRISHNA SINGH</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex flex-grow justify-end gap-x-10">
