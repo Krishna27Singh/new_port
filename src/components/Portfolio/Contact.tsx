@@ -69,7 +69,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 px-4 relative">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto ">
         <div className="text-center mb-16">
           <h2 className="section-title">GET IN TOUCH</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
@@ -82,11 +82,11 @@ const Contact = () => {
               CONTACT INFORMATION
             </h3>
 
-            <div className="space-y-6 mb-12">
+            <div className="space-y-6 mb-12 ">
               {contactInfo.map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-4 p-4 bg-card/30 rounded-lg border border-border/50"
+                  className="flex items-center gap-4 p-4 bg-card/30 rounded-lg border border-border/50 "
                 >
                   <div className="p-3 bg-primary/10 rounded-lg">
                     <item.icon className="w-6 h-6 text-primary" />
@@ -156,7 +156,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div>
-            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+            <Card className="bg-card/50 backdrop-blur-sm border-border/50 border-box-thick rounded-none">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-foreground uppercase tracking-wide mb-6">
                   SEND A MESSAGE
