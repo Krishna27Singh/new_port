@@ -14,9 +14,18 @@ const DELETING_SPEED = 50;
 const PAUSE_DURATION = 1500;
 
 const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const [text, setText] = useState("");
   const [roleIndex, setRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+
+  const scrollToSection = (href) => {
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsOpen(false);
+  };
 
   useEffect(() => {
     const currentRole = roles[roleIndex];
@@ -60,8 +69,11 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button size="lg" className="text-lg px-8 py-3">
-              VIEW MY WORK
+            <Button size="lg"  className="text-lg px-8 py-3">
+              <button
+              onClick={() => scrollToSection("#projects")}
+              >VIEW MY WORK</button>
+              
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-3">
               DOWNLOAD RESUME

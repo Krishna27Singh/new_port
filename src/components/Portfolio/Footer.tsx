@@ -114,7 +114,7 @@ const Footer = () => {
       {/* Scroll to Top Button - Fixed Position */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 z-50 border-box w-12 h-12 bg-black text-background hover:bg-background hover:text-black transition-colors"
+        className="fixed bottom-6 right-6 z-50 border-box w-7 h-10 bg-black text-background hover:bg-background hover:text-black transition-colors"
         title="SCROLL TO TOP"
       >
         <ArrowUp className="w-5 h-5" />
