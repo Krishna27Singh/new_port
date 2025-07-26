@@ -9,7 +9,7 @@ const VisitorTracker = () => {
     // Fetch visitor count from backend
     const fetchVisitorCount = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/visitor-count");
+        const res = await fetch("https://krishnaportfoliobackend.onrender.com/api/visitor-count");
         const data = await res.json();
         setVisitorCount(data.visitorCount);
       } catch (error) {
