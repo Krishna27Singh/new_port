@@ -6,95 +6,95 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-COMMERCE PLATFORM",
-      description: "A FULL-STACK E-COMMERCE SOLUTION WITH MODERN FEATURES INCLUDING REAL-TIME INVENTORY, PAYMENT PROCESSING, AND ADMIN DASHBOARD.",
+      title: "ECOSANGAM",
+      description: "ECOSANGAM IS AN AI-DRIVEN SUSTAINABILITY PLATFORM THAT EMPOWERS INDIVIDUALS TO TRACK, MANAGE AND OFFSET THEIR CARBON FOOTPRINT. ",
       image: "/ecc.png",
-      technologies: ["REACT", "NODE.JS", "POSTGRESQL", "STRIPE", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["REACT", "NODE.JS", "MONGODB", "TAILWINDCSS", "FRAMER MOTION", "LANGCHAIN", "GEMINI API"],
+      liveUrl: "https://github.com/Krishna27Singh/EcoSangam",
+      githubUrl: "https://github.com/Krishna27Singh/EcoSangam",
       featured: true
     },
     {
-      title: "TASK MANAGEMENT APP",
-      description: "COLLABORATIVE PROJECT MANAGEMENT TOOL WITH REAL-TIME UPDATES, DRAG-AND-DROP INTERFACE, AND TEAM COLLABORATION FEATURES.",
+      title: "BreateSafe",
+      description: "BREATHESAFE IS A ONE-STOP PLATFORM THAT TRANSFORMS REAL-TIME POLLUTION DATA INTO MEANINGFUL HEALTH ADVICE AND COMMUNITY ACTION.",
       image: "/aqttt.jpeg",
-      technologies: ["NEXT.JS", "TYPESCRIPT", "PRISMA", "SOCKET.IO"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["REACT", "NODE.JS", "NODEMAILER", "MONGODB", "LANGCHAIN", "OAUTH", "GEMINI API"],
+      liveUrl: "https://github.com/Krishna27Singh/breathsafe",
+      githubUrl: "https://github.com/Krishna27Singh/breathsafe",
       featured: true
     },
     {
-      title: "WEATHER DASHBOARD",
-      description: "RESPONSIVE WEATHER APPLICATION WITH LOCATION-BASED FORECASTS, INTERACTIVE MAPS, AND PERSONALIZED ALERTS.",
+      title: "BIDBUDDY",
+      description: "A REAL-TIME, VOICE-DRIVEN AUCTION PLATFORM POWERED BY OMNIDIMENSION. IT ENABLES USERS TO DISCOVER PRODUCTS, RECEIVE LIVE BID UPDATES, AND PLACE NEW BIDS — ALL VIA NATURAL VOICE COMMANDS.",
       image: "/biddd.png",
-      technologies: ["REACT", "TYPESCRIPT", "REST API", "CHARTS.JS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["REACT", "TYPESCRIPT", "REST API", "NODEJS", "OMNIDIMENSION"],
+      liveUrl: "https://github.com/Krishna27Singh/BidBuddy",
+      githubUrl: "https://github.com/Krishna27Singh/BidBuddy",
       featured: true
     },
     {
-      title: "PORTFOLIO WEBSITE",
-      description: "MODERN PORTFOLIO WEBSITE WITH SMOOTH ANIMATIONS, RESPONSIVE DESIGN, AND OPTIMIZED PERFORMANCE.",
+      title: "HOSTEL ATTENDANCE SYSTEM",
+      description: "THE ONLINE HOSTEL ATTENDANCE SYSTEM IS AN INNOVATIVE PROJECT AIMED AT AUTOMATING HOSTEL ATTENDANCE TRACKING. THIS SYSTEM OFFERS A SECURE, EFFICIENT, AND SCALABLE SOLUTION TO MANAGE HOSTEL ATTENDANCE RECORDS.",
       image: "/hostatt.jpeg",
-      technologies: ["REACT", "TAILWIND", "FRAMER MOTION", "VITE"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["REACT", "TAILWINDCSS", "PYTHON", "FLASK","MONGODB", "OPENCV"],
+      liveUrl: "https://github.com/Krishna27Singh/hostel-attendance-system",
+      githubUrl: "https://github.com/Krishna27Singh/hostel-attendance-system",
       featured: true
     },
     {
-      title: "SOCIAL MEDIA ANALYTICS",
-      description: "COMPREHENSIVE ANALYTICS DASHBOARD FOR SOCIAL MEDIA PERFORMANCE WITH DATA VISUALIZATION AND REPORTING.",
+      title: "MOODBLOOM",
+      description: "MOODBLOOM IS A COMPREHENSIVE MOOD-TRACKING APP DESIGNED TO PROMOTE MENTAL WELL-BEING BY COMBINING MULTIPLE FEATURES.",
       image: "/mdd.jpeg",
-      technologies: ["PYTHON", "DJANGO", "REACT", "D3.JS", "REDIS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["REACT", "EJS", "NODEJS", "D3.JS", "MONGODB","SOCKET.IO", "GEMINI API"],
+      liveUrl: "https://github.com/Krishna27Singh/moodbloom",
+      githubUrl: "https://github.com/Krishna27Singh/moodbloom",
       featured: true
     },
     {
-      title: "BLOCKCHAIN EXPLORER",
-      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
+      title: "ECOSPHERE",
+      description: "ECHOSPHERE IS A DYNAMIC BLOGGING PLATFORM WHERE USERS CAN SECURELY SIGN UP, LOG IN, AND SHARE THEIR THOUGHTS THROUGH BLOGS.",
       image: "/blgg.jpeg",
-      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["NODEJS", "EXPRESSJS", "EJS", "BOOTSTRAP", "MONGODB"],
+      liveUrl: "https://github.com/Krishna27Singh/blogging_app",
+      githubUrl: "https://github.com/Krishna27Singh/blogging_app",
       featured: true
     },
     {
-      title: "BLOCKCHAIN EXPLORER",
-      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
+      title: "LINKLOOM",
+      description: "THIS URL SHORTENER APP SIMPLIFIES LINK SHARING BY ALLOWING USERS TO CONVERT LENGTHY URLS INTO COMPACT, EASY-TO-SHARE LINKS.",
       image: "/lll.jpeg",
-      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["NODEJS", "EJS", "MONGODB", "EXPRESSJS"],
+      liveUrl: "https://github.com/Krishna27Singh/Url-Generator",
+      githubUrl: "https://github.com/Krishna27Singh/Url-Generator",
       featured: true
     },
     {
-      title: "BLOCKCHAIN EXPLORER",
-      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
+      title: "TASK MANAGEMENT",
+      description: "THE TASK MANAGEMENT APP IS A PRACTICAL TOOL FOR ORGANIZING DAILY ACTIVITIES. IT ENABLES USERS TO ADD, UPDATE, AND DELETE TASKS EFFORTLESSLY.",
       image: "/tdd.jpeg",
-      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
+      technologies: ["PYTHON", "FLASK", "POSTGRESQL", "NUMPY"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "BLOCKCHAIN EXPLORER",
-      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
-      image: "/lll.jpeg",
-      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "SNAKE GAME",
+      description: "THIS JAVASCRIPT-BASED SNAKE GAME MADE FROM SCRATCH RECREATES THE CLASSIC GAMING EXPERIENCE WITH SMOOTH CONTROLS AND DYNAMIC GAMEPLAY.",
+      image: "/snn.jpeg",
+      technologies: ["HTML5", "CSS3", "JAVASCRIPT"],
+      liveUrl: "https://github.com/Krishna27Singh/snake-game",
+      githubUrl: "https://github.com/Krishna27Singh/snake-game",
       featured: true
     },
     {
-      title: "BLOCKCHAIN EXPLORER",
-      description: "DECENTRALIZED APPLICATION FOR EXPLORING BLOCKCHAIN TRANSACTIONS WITH REAL-TIME DATA AND ANALYTICS.",
-      image: "/lll.jpeg",
-      technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "TIC TAC TOE",
+      description: "THE TIC-TAC-TOE GAME IS A JAVASCRIPT-POWERED INTERACTIVE APPLICATION WHERE TWO PLAYERS CAN COMPETE IN REAL-TIME.",
+      image: "/tkk.jpeg",
+      technologies: ["HTML5", "CSS3", "JAVASCRIPT"],
+      liveUrl: "https://github.com/Krishna27Singh/Tic-Tac-Toe",
+      githubUrl: "https://github.com/Krishna27Singh/Tic-Tac-Toe",
       featured: true
-    }
+    },
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
@@ -137,15 +137,16 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <button className="border-box px-4 py-2 bg-black text-background font-bold uppercase text-sm tracking-wide hover:bg-background hover:text-black transition-colors flex items-center gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    LIVE DEMO
-                  </button>
-                  <button className="border-box px-4 py-2 bg-background text-black font-bold uppercase text-sm tracking-wide hover:bg-black hover:text-background transition-colors flex items-center gap-2">
-                    <Github className="w-4 h-4" />
-                    CODE
-                  </button>
-                </div>
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border-box px-4 py-2 bg-black text-background font-bold uppercase text-sm tracking-wide hover:bg-background hover:text-black transition-colors flex items-center gap-2"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  VIEW PROJECT
+                </a>
+              </div>
               </div>
             </div>
           ))}
@@ -155,7 +156,7 @@ const Projects = () => {
         {/* View More Button */}
         <div className="text-center">
           <button className="border-box-thick px-8 py-3 bg-background text-black font-bold uppercase tracking-wide hover:bg-black hover:text-background transition-colors">
-            VIEW ALL PROJECTS ON GITHUB
+            <a href="https://github.com/Krishna27Singh">VIEW ALL PROJECTS ON GITHUB</a>
           </button>
         </div>
       </div>

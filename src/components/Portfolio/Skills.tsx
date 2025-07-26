@@ -15,7 +15,7 @@ const Skills = () => {
       title: "BACKEND DEVELOPMENT", 
       skills: [
         "NODE.JS", "EXPRESS.JS", "PYTHON", "FLASK", "REST API",
-        "OPENCV", "MICROSERVICES", "D3.JS", "JSON", "NUMPY", "MATPLOTLIB", "LANGCHAIN"
+        "OPENCV", "MICROSERVICES", "D3.JS", "JSON", "NUMPY", "MATPLOTLIB", "LANGCHAIN", "SOCKET.IO", "GEMINI API"
       ],
       icon: ""
     },
@@ -31,7 +31,7 @@ const Skills = () => {
       title: "TOOLS & WORKFLOW",
       skills: [
         "GIT", "GITHUB", "VS CODE", "FIGMA", "POSTMAN", "RIVE", "BOTPRESS",
-        "WEBPACK", "VITE",  "FIREBASE", "NPM", "NETLIFY", "RENDER"
+        "WEBPACK", "VITE",  "FIREBASE", "NPM", "NETLIFY", "RENDER", "OMNIDIMENSION"
       ],
       icon: ""
     },
