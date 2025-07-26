@@ -15,7 +15,7 @@ const Skills = () => {
       title: "BACKEND DEVELOPMENT", 
       skills: [
         "NODE.JS", "EXPRESS.JS", "PYTHON", "FLASK", "REST API",
-        "OPENCV", "MICROSERVICES", "D3.JS", "JSON", "NUMPY", "MATPLOTLIB"
+        "OPENCV", "MICROSERVICES", "D3.JS", "JSON", "NUMPY", "MATPLOTLIB", "LANGCHAIN"
       ],
       icon: ""
     },

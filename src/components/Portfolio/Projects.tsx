@@ -70,10 +70,6 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">FEATURED PROJECTS</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A SHOWCASE OF MY BEST WORK, DEMONSTRATING MY ABILITY TO CREATE 
-            INNOVATIVE SOLUTIONS ACROSS VARIOUS DOMAINS AND TECHNOLOGIES.
-          </p>
         </div>
 
         {/* Featured Projects */}
