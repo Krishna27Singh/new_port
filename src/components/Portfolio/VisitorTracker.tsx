@@ -48,7 +48,7 @@ const VisitorTracker = () => {
         <div className="border-box p-4">
           <div className="text-3xl font-bold text-foreground mb-2">{formatTime(timeSpent)}</div>
           <div className="text-sm text-muted-foreground uppercase tracking-wide">
-            TIME SPENT ON PORFOLIO
+            TIME SPENT ON PORTFOLIO
           </div>
         </div>
       </div>

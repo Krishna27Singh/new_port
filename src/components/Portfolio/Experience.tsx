@@ -82,7 +82,7 @@ const Experience = () => {
                         {exp.company}
                       </p>
                     </div>
-                    <span className="border border-black px-2 py-1 text-xs font-bold uppercase mt-2 sm:mt-0 w-fit bg-background">
+                    <span className="border border-black px-2 py-1 text-xs font-bold uppercase mt-2 sm:mt-0 w-fit bg-background hover:bg-black hover:text-background">
                       {exp.type}
                     </span>
                   </div>
@@ -109,7 +109,7 @@ const Experience = () => {
                   
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, i) => (
-                      <span key={i} className="border border-black text-xs px-2 py-1 uppercase bg-background">
+                      <span key={i} className="border hover:bg-black hover:text-background border-black text-xs px-2 py-1 uppercase bg-background">
                         {tech}
                       </span>
                     ))}
