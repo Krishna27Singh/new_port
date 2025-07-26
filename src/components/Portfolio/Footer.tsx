@@ -97,7 +97,7 @@ const Footer = () => {
 
               {/* Resume Download */}
               <button className="border-box px-4 py-2 bg-background text-black font-bold uppercase text-sm tracking-wide hover:bg-black hover:text-background transition-colors">
-                DOWNLOAD RESUME
+                <a href="https://drive.google.com/file/d/19JXLVqWlbBW0DvIZnGa94A6kPENyjhg9/view?usp=sharing">DOWNLOAD RESUME</a>
               </button>
             </div>
           </div>

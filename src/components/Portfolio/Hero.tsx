@@ -76,7 +76,8 @@ const Hero = () => {
               
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-3">
-              DOWNLOAD RESUME
+              <a href="https://drive.google.com/file/d/19JXLVqWlbBW0DvIZnGa94A6kPENyjhg9/view?usp=sharing">DOWNLOAD RESUME</a>
+              
             </Button>
           </div>
 
