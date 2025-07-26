@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "E-COMMERCE PLATFORM",
       description: "A FULL-STACK E-COMMERCE SOLUTION WITH MODERN FEATURES INCLUDING REAL-TIME INVENTORY, PAYMENT PROCESSING, AND ADMIN DASHBOARD.",
-      image: "/placeholder.svg",
+      image: "/ecc.png",
       technologies: ["REACT", "NODE.JS", "POSTGRESQL", "STRIPE", "AWS"],
       liveUrl: "#",
       githubUrl: "#",
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "TASK MANAGEMENT APP",
       description: "COLLABORATIVE PROJECT MANAGEMENT TOOL WITH REAL-TIME UPDATES, DRAG-AND-DROP INTERFACE, AND TEAM COLLABORATION FEATURES.",
-      image: "/placeholder.svg",
+      image: "/aqttt.jpeg",
       technologies: ["NEXT.JS", "TYPESCRIPT", "PRISMA", "SOCKET.IO"],
       liveUrl: "#",
       githubUrl: "#",
@@ -26,11 +26,11 @@ const Projects = () => {
     {
       title: "WEATHER DASHBOARD",
       description: "RESPONSIVE WEATHER APPLICATION WITH LOCATION-BASED FORECASTS, INTERACTIVE MAPS, AND PERSONALIZED ALERTS.",
-      image: "/placeholder.svg",
+      image: "/biddd.png",
       technologies: ["REACT", "TYPESCRIPT", "REST API", "CHARTS.JS"],
       liveUrl: "#",
       githubUrl: "#",
-      featured: false
+      featured: true
     },
     {
       title: "PORTFOLIO WEBSITE",
@@ -39,7 +39,7 @@ const Projects = () => {
       technologies: ["REACT", "TAILWIND", "FRAMER MOTION", "VITE"],
       liveUrl: "#",
       githubUrl: "#",
-      featured: false
+      featured: true
     },
     {
       title: "SOCIAL MEDIA ANALYTICS",
@@ -48,7 +48,7 @@ const Projects = () => {
       technologies: ["PYTHON", "DJANGO", "REACT", "D3.JS", "REDIS"],
       liveUrl: "#",
       githubUrl: "#",
-      featured: false
+      featured: true
     },
     {
       title: "BLOCKCHAIN EXPLORER",
@@ -57,7 +57,7 @@ const Projects = () => {
       technologies: ["WEB3", "ETHEREUM", "SOLIDITY", "REACT", "NODE.JS"],
       liveUrl: "#",
       githubUrl: "#",
-      featured: false
+      featured: true
     }
   ];
 
@@ -68,7 +68,7 @@ const Projects = () => {
     <section id="projects" className="py-20 px-4 relative">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">FEATURED PROJECTS</h2>
+          <h2 className="section-title">PROJECTS</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
         </div>
 
@@ -77,7 +77,7 @@ const Projects = () => {
           {featuredProjects.map((project, index) => (
             <div key={index} className="border-box-thick bg-background">
               <div className="aspect-video bg-background border-b-2 border-black flex items-center justify-center">
-                <span className="text-4xl text-foreground font-bold">PROJECT</span>
+                <span className="text-4xl text-foreground font-bold"><img src= {project.image} alt="" /></span>
               </div>
               
               <div className="p-6">
@@ -115,52 +115,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Other Projects */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-bold text-center text-foreground uppercase tracking-wide mb-8">
-            OTHER PROJECTS
-          </h3>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {otherProjects.map((project, index) => (
-              <div key={index} className="border-box bg-background p-6">
-                <h4 className="text-lg font-bold text-foreground mb-2 uppercase tracking-wide">
-                  {project.title}
-                </h4>
-                
-                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                  {project.description}
-                </p>
-                
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {project.technologies.slice(0, 3).map((tech, techIndex) => (
-                    <span 
-                      key={techIndex} 
-                      className="border border-black text-xs px-2 py-1 uppercase bg-background"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                  {project.technologies.length > 3 && (
-                    <span className="border border-black text-xs px-2 py-1 bg-background">
-                      +{project.technologies.length - 3}
-                    </span>
-                  )}
-                </div>
-                
-                <div className="flex gap-2">
-                  <button className="border border-black p-2 hover:bg-black hover:text-background transition-colors">
-                    <ExternalLink className="w-4 h-4" />
-                  </button>
-                  <button className="border border-black p-2 hover:bg-black hover:text-background transition-colors">
-                    <Github className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
+        
         {/* View More Button */}
         <div className="text-center">
           <button className="border-box-thick px-8 py-3 bg-background text-black font-bold uppercase tracking-wide hover:bg-black hover:text-background transition-colors">
