@@ -17,20 +17,20 @@ const Navigation = () => {
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
     setIsOpen(false);
   };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black text-[#e5e1d8]">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-16">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-xl font-bold text-[#e5e1d8]">PORTFOLIO</div>
+          <div className="text-xl font-bold text-[#e5e1d8]">KRISHNA SINGH</div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex flex-grow justify-end gap-x-10">
             {navItems.map((item) => (
               <button
                 key={item.href}
