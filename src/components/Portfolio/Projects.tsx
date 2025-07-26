@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: "PORTFOLIO WEBSITE",
       description: "MODERN PORTFOLIO WEBSITE WITH SMOOTH ANIMATIONS, RESPONSIVE DESIGN, AND OPTIMIZED PERFORMANCE.",
-      image: "/placeholder.svg",
+      image: "/hostatt.jpeg",
       technologies: ["REACT", "TAILWIND", "FRAMER MOTION", "VITE"],
       liveUrl: "#",
       githubUrl: "#",
