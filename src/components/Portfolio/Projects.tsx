@@ -10,7 +10,7 @@ const Projects = () => {
       description: "ECOSANGAM IS AN AI-DRIVEN SUSTAINABILITY PLATFORM THAT EMPOWERS INDIVIDUALS TO TRACK, MANAGE AND OFFSET THEIR CARBON FOOTPRINT. ",
       image: "/ecc.png",
       technologies: ["REACT", "NODE.JS", "MONGODB", "TAILWINDCSS", "FRAMER MOTION", "LANGCHAIN", "GEMINI API"],
-      liveUrl: "https://github.com/Krishna27Singh/EcoSangam",
+      liveUrl: "https://ecosangam.onrender.com",
       githubUrl: "https://github.com/Krishna27Singh/EcoSangam",
       featured: true
     },
@@ -19,7 +19,7 @@ const Projects = () => {
       description: "BREATHESAFE IS A ONE-STOP PLATFORM THAT TRANSFORMS REAL-TIME POLLUTION DATA INTO MEANINGFUL HEALTH ADVICE AND COMMUNITY ACTION.",
       image: "/aqttt.jpeg",
       technologies: ["REACT", "NODE.JS", "NODEMAILER", "MONGODB", "LANGCHAIN", "OAUTH", "GEMINI API"],
-      liveUrl: "https://github.com/Krishna27Singh/breathsafe",
+      liveUrl: "https://breathsafe-frontend.onrender.com",
       githubUrl: "https://github.com/Krishna27Singh/breathsafe",
       featured: true
     },
