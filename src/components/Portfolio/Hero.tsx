@@ -76,7 +76,7 @@ const Hero = () => {
               
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-3">
-              <a href="https://drive.google.com/file/d/19JXLVqWlbBW0DvIZnGa94A6kPENyjhg9/view?usp=sharing">DOWNLOAD RESUME</a>
+              <a href="https://drive.google.com/file/d/1KoQw7asBhn3mVNx6c4pgd1KHXd08reD0/view?usp=sharing">DOWNLOAD RESUME</a>
               
             </Button>
           </div>
@@ -88,7 +88,7 @@ const Hero = () => {
       </div>
 
       {/* Scoped CSS for blinking animation */}
-      <style jsx>{`
+      <style >{`
         @keyframes blink {
           0%, 100% { opacity: 1; }
           50% { opacity: 0; }
